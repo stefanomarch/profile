@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: rgb(40, 40, 30);
+  color: #fff;
+  line-height: 2;
+  text-align: center
+}
+h1, h2, h3 {
+  color: rgb(248, 248, 248);
+  letter-spacing: .2rem;
+}
+
+.btn-light{
+  display: inline-block;
+  border: 1px solid yellow;
+  padding:.6rem 3rem;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  margin:2rem auto;
+  color: yellow;
+  text-decoration: none;
+}
+.btn-light:hover {
+  color:rgb(40, 40, 35);
+  background-color: yellow;
+}
+.img-round {
+  margin: 20px auto;
+  width: 9rem;
+  border-radius: 50%;
+  box-shadow: 2px #ffd 1px 0.9;
+}
+.card {
+  background-color: rgb(40, 40, 35);
+  max-width: 800px;
+  padding: 2rem;
+  border: 1px #ffd solid ;
+  margin: 1.3rem auto;
+  border-radius: 4px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+  }
+li {
+  margin: 0 3rem ;
+}
+ul > li > a {
+  font-size:2.3rem;
+  color: rgb(211, 201, 201);
+  opacity:0.5;
+}
+ul > li > a:hover {
+  opacity: 1;
+  color:#ffd;
+  }
+
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card{
+    border:none;
+    margin:0;
+  }
+  h1 {
+    line-height: 2.7rem;
+    font-size:2.2rem;
+  }
+  h2{
+    color: yellow;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
